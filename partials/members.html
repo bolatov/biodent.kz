@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+
+      <div class="col-md-12">
+          <h1 class="page-header">Специалисты
+          </h1>
+          <ol class="breadcrumb">
+              <li><a href="/">Главная</a>
+              </li>
+              <li class="active">Специалисты</li>
+          </ol>
+      </div>
+  </div>
+
+  <!-- Staff -->
+  <div ng-controller="MembersCtrl">
+
+    <div class="row" ng-repeat="rows in members">
+      <div class="col-xs-6 col-md-4" ng-repeat="member in rows">
+        <!-- <div ng-if="member.profilePicture"> -->
+          <img src="{{member.profilePicture}}" alt="{{member.name}}" class="img-thumbnail img-responsive" />
+        <!-- </div> -->
+        <!-- <div ng-if="!member.profilePicture"> -->
+          <!-- <img src="img/member3.jpg" alt="" /> -->
+        <!-- </div> -->
+        <h4>{{member.name}}</h4>
+        <p class="text-muted">{{member.position}}</p><!-- /.text-muted -->
+      </div><!-- /.col-xs-6 col-md-4 -->
+    </div><!-- /.row -->
+  </div><!-- /.MembersCtrl -->
+
+</div><!-- /.container -->

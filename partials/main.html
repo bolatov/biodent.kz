@@ -1,0 +1,109 @@
+<div class="container">
+
+  <!-- Heading Row -->
+  <div class="row">
+    <div class="col-md-12">
+      <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
+      <div ng-controller="CarouselCtrl">
+        <!-- <div style="height: 450px"> -->
+          <carousel interval="myInterval" no-wrap="noWrapSlides">
+            <slide ng-repeat="slide in slides">
+              <img ng-src="{{slide}}" style="margin:auto;">
+            </slide>
+          </carousel>
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- /.col-md-8 -->
+
+    <!-- <div class="col-md-4">
+      <h1 class="text-info">«Биодент ЭК»</h4>
+      <p>Мы рады приветствовать Вас на сайте стоматологической клиники «Биодент ЭК».</p>
+      <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
+    </div>/.col-md-4 -->
+  </div><!-- /.row -->
+
+  <hr>
+
+  <div class="row">
+
+    <div class="text-center">
+      <h1 class="text-primary">Биодент-ЭК рад приветствовать Вас</h1><!-- /.text-primary -->
+      <h3 class="text-primary">Улыбнитесь миру ослепительной улыбкой!</h3><!-- /.text-primary -->
+    </div><!-- /.text-center -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well">
+        <div class="text-center">
+          <h3>Режим работы в г.Экибастуз</h3>
+          <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;ул М.Жусупа 86/16</p>
+          <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;<a href="tel:+77187770950">+7 (7187) 77-09-50</a></p>
+          <ul class="list-unstyled">
+            <li>Пн-Пт. 08:00 - 20:00</li>
+            <li>Сб. 08:00 - 17:00</li>
+            <li>Вс. 10:00 - 17:00</li>
+          </ul><!-- /.list-unstyled -->
+        </div><!-- /.text-center -->
+      </div><!-- /.well -->
+    </div><!-- /.col-md-6 -->
+
+    <div class="col-md-6">
+      <div class="well">
+        <div class="text-center">
+          <h3>Режим работы в г.Павлодар</h3>
+          <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;ул. Лермонтова 117</p>
+          <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;<a href="tel:+77182542378">+7 (7182) 54-23-78</a></p>
+          <ul class="list-unstyled">
+            <li>Пн-Пт. 09:00 - 20:00</li>
+            <li>Сб. 09:00 - 18:00</li>
+            <li>Вс. Выходной</li>
+          </ul><!-- /.list-unstyled -->
+        </div><!-- /.text-center -->
+      </div><!-- /.well -->
+    </div><!-- /.col-md-6 -->
+  </div><!-- /.row -->
+
+  <hr />
+
+  <!-- Content Row -->
+  <div class="row">
+
+    <!-- Services -->
+    <div class="col-md-6">
+      <h2 class="text-info">Спектр услуг</h2>
+      <p class="text-info">Мы оказываем следующие виды стоматологических и косметологических услуг:</p>
+      <ul>
+        <li>Взрослый приём</li>
+        <li>Детский приём</li>
+        <li>Лечение заболеваний дёсен</li>
+        <li>Косметическая реставрация зубов</li>
+        <li>Лечение с помощью лазерного аппарата Dr.Smile</li>
+        <li>Имплантация</li>
+        <li>Диспорт</li>
+        <li>Рентген</li>
+        <li>Ламинация</li>
+        <li>Реставрация</li>
+        <li>Лечение лазером (подрезание уздечки, удаление новообразований на коже)</li>
+      </ul>
+      <!-- <a class="btn btn-info" href="/services">Подробнее</a> -->
+    </div>
+    <!-- /.col-md-6 -->
+
+    <!-- Partners -->
+    <div class="col-md-6">
+      <h2 class="text-info">Партнёры</h2>
+      <p class="text-info">Мы работаем со следующими страховыми компаниями:</p>
+      <ul class="list-unstyled">
+        <li><img src="img/partners/mediker.jpg" alt="" /> ТОО "Медикер"</li>
+        <li><img src="img/partners/sosmed.jpg" alt="" /> ТОО "SOS Medical Assistance"</li>
+        <li><img src="img/partners/samalmed.jpg" alt="" /> ТОО "Samal Medical Assistance"</li>
+      </ul>
+      <!-- <a class="btn btn-info" href="#">Подробнее</a> -->
+    </div>
+    <!-- /.col-md-6 -->
+  </div>
+  <!-- /.row -->
+
+</div><!-- /.container -->

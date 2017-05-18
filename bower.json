@@ -1,0 +1,36 @@
+{
+  "name": "biodent",
+  "version": "0.0.1",
+  "homepage": "https://biodent-pavlodar.appspot.com",
+  "authors": [
+    "Almer Bolatov (almer.bolatov@gmail.com)"
+  ],
+  "description": "A website for biodent dentist clinicum. Built with angular on google app engine",
+  "keywords": [
+    "biodent",
+    "dentist",
+    "clinic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "angular-google-maps": "~2.1.6",
+    "angular-bootstrap": "~0.13.4",
+    "angular-animate": "~1.4.5",
+    "bootstrap": "~3.3.4",
+    "angular-bootstrap-lightbox": "0.9.0",
+    "angular-strap": "2.3.3"
+  },
+  "resolutions": {
+    "angular": "~1.4.5"
+  }
+}
