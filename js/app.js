@@ -17,7 +17,7 @@
                                     {templateUrl : 'partials/about.html'})
                     .when('/services',
                           {templateUrl : 'partials/services.html'})
-                    .when('/members', {templateUrl : 'partials/members.html'})
+                    // .when('/members', {templateUrl : 'partials/members.html'})
                     .when('/contact',
                           {
                             templateUrl : 'partials/contact.html'
