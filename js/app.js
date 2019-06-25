@@ -174,7 +174,7 @@
                          // function runs (Make sure it only runs once)
                          var boundsListener = google.maps.event.addListener(
                              (map), 'bounds_changed', function(event) {
-                                 this.setZoom(8);
+                                 this.setZoom(7);
                                  google.maps.event.removeListener(
                                      boundsListener);
                              });
